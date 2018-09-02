@@ -171,7 +171,7 @@ public class TrainTestFuser
     		{
     			for(int j = 0; j < histogram.getVector().length; j++)
     			{
-    				trainFeaturePool[insertedTestFeatureSum + j][testVideo] = histogram.get(j);
+    				testFeaturePool[insertedTestFeatureSum + j][testVideo] = histogram.get(j);
     			}
     			testVideo++;
     		}
